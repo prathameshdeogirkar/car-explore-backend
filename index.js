@@ -295,7 +295,7 @@ const CARS = [
 
 
 
-app.get("health", (req, res) => {
+app.get("/health", (req, res) => {
     res.json({
         success: "true",
         message: "Server is running"
